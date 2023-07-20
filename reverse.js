@@ -1,3 +1,4 @@
 function reverse(str){
-    return str.map(word => word.split('').reverse()).join('')
+    const str2 = str.split(' ');
+    return str2.map(word => word.split('').reverse().join('')).join(' ')
 }
